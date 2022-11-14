@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="h-full" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel = ”stylesheet” href = ”https://fonts.googleapis.com/icon?family=Material+Icons”>
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+</head>
+<body class="h-full flex flex-col bg-[#674baf] gap-4 bg-container sm:flex-row sm:bg-[url('images/bg-desktop.svg')] sm:bg-cover">
+  <section class="h-1/2 bg-[url('images/bg-mobile.svg')] sm:bg-[url()] sm:w-3/5 sm:ml-8 sm:h-full sm:gap-4">
+    <!-- bg-[url('images/bg-mobile.svg')] -->
+    <img class="ml-9 mt-4 h-8 self-start sm:mb-16" src="images/logo.svg" alt="logo-huddle">
+    <img class="p-9 sm:p-0 sm:w-4/5" src="images/illustration-mockups.svg" alt="illustration-mockups">
+  </section>
+  <section class="flex flex-col items-center gap-4 sm:w-2/5 sm:justify-center sm:gap-6">
+    <h1 class="text-white font-['Open Sans'] font-normal text-3xl text-center mr-4 ml-4 sm:font-bold sm:text-left">Build The Community Your Fans Will Love</h1>
+
+    <p class="text-white text-center mr-5 ml-5 sm:text-left">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+    Create connections with your users as you engage in genuine discussion.</p> 
+
+    <button class="cursor-pointer bg-white w-44 mt-2 mb-2 h-10 rounded-3xl shadow-lg shadow-black sm:self-start sm:ml-5 hover:bg-[#e882e8]">Register</button>
+
+    <div class="flex gap-4 sm:justify-self-end sm:absolute sm:bottom-4 sm:right-4 ">
+      <div class="cursor-pointer border b-white rounded-full p-1 hover:bg-[#e882e8]"><a><img src="images/Facebook.png"></a></div>
+      <div class="cursor-pointer border b-white rounded-full p-1 hover:bg-[#e882e8]"><a><img src="images/Twitter.png"></a></div>
+      <div class="cursor-pointer border b-white rounded-full p-1 hover:bg-[#e882e8]"><a><img src="images/Instagram.png"></a></div>
+    </div>
+  </section>
+</body> 
+</html>
